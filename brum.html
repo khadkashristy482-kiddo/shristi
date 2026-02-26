@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>siganeyy💌</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+
+<meta charset="UTF-8">
+<title>Birthday Calendar</title>
+
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to bottom, #fff0f5, #ffe4ec);
+  }
+
+  h1 {
+    color: #8B4513;
+    letter-spacing: 3px;
+    font-size: 32px;
+  }
+
+  .cat-top {
+    font-size: 28px;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  th, td {
+    border: 1px solid #f1d0d6;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+    color: #5C4033;
+  }
+
+  th {
+    background-color: #ffd6e0;
+    font-weight: bold;
+  }
+
+  td:hover {
+    background-color: #fff2f6;
+    cursor: pointer;
+  }
+
+  .birthday {
+    background-color: #ff4d6d;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255,77,109,0.6);
+  }
+
+  .cat-bottom {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+
+</style>
+</head>
+
+<body>
+
+<div class="cat-top">🐱✨</div>
+
+<h1>FEBRUARY 💌</h1>
+
+<table>
+  <tr>
+    <th>Sun</th>
+    <th>Mon</th>
+    <th>Tue</th>
+    <th>Wed</th>
+    <th>Thu</th>
+    <th>Fri</th>
+    <th>Sat</th>
+  </tr>
+
+  <!-- Month starts on Monday so 14 lands on Thursday -->
+
+  <tr>
+    
+    <td>1</td>
+    <td>2</td>
+<td>3</td>
+<td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+  </tr>
+
+  <tr>
+    
+    
+    <td>8</td>
+     <td>9</td>
+<td>10</td>
+td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    
+
+  </tr>
+
+  <tr>
+<td>15</td>
+   <td>16</td>
+<td>17</td>
+ <td>18</td>
+    <td>19</td>
+    <td>20</td>
+    <td>21</td>
+  </tr>
+
+  <tr>
+    
+    
+   
+     <td>22</td>
+    <td>23</td>
+<td>24</td>
+<td>25</td>
+    <td class="birthday">26</td>
+    <td>27</td>
+    <td>28</td>
+
+
+  </tr>
+
+  <tr>
+   
+        
+      </tr>
+
+</table>
+
+<div class="cat-bottom">🎂🐾</div>
+
+
+<style>
+body{
+font-family:Poppins;
+margin:0;
+color:white;
+text-align:center;
+overflow-x:hidden;
+}
+
+/* 🌸 moving home bg */
+.homebg{
+background:linear-gradient(-45deg,#ff9a9e,#fbc2eb,#ffdde1,#ffc3a0);
+background-size:400% 400%;
+animation:gradient 10s ease infinite;
+min-height:70vh;
+padding:95px;
+}
+
+@keyframes gradient{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+/* 💖 love bg */
+.lovebg{
+background:linear-gradient(-45deg,#ff4e88,#ff99ac,#c471ed,#f64f59);
+background-size:400% 400%;
+animation:gradient 8s ease infinite;
+min-height:100vh;
+padding:40px;
+}
+
+/* 🌙 night bg */
+.nightbg{
+background:linear-gradient(-45deg,#141e30,#243b55,#2c5364,#000000);
+background-size:400% 400%;
+animation:gradient 12s ease infinite;
+min-height:100vh;
+padding:40px;
+}
+
+/* ⚡ fun bg */
+.firebg{
+background:linear-gradient(-45deg,#f7971e,#ffd200,#ff512f,#dd2476);
+background-size:400% 400%;
+animation:gradient 8s ease infinite;
+min-height:100vh;
+padding:40px;
+}
+
+.page{display:none;}
+.active{display:block;}
+
+.container{
+max-width:750px;
+margin:auto;
+background:rgba(0,0,0,0.35);
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(6px);
+}
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+margin-top:30px;
+}
+
+.box{
+background:#ff6fa5;
+padding:25px;
+border-radius:15px;
+font-size:18px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.box:hover{
+transform:scale(1.08);
+background:#ff3d87;
+}
+
+img{
+width:180px;
+border-radius:15px;
+margin:10px;
+box-shadow:0 0 15px rgba(255,255,255,0.4);
+}
+
+button{
+margin-top:20px;
+padding:10px 18px;
+border:none;
+border-radius:12px;
+background:white;
+color:black;
+cursor:pointer;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HOME -->
+<div id="home" class="page active homebg">
+<div class="container">
+<img src="hbd.jpg">
+<h1>💌 attention to thiss💌</h1>
+<p><i>hie BADASSSS.</i></p>
+
+<div class="grid">
+<div class="box" onclick="openPage('upset')">Open when you're sad(¬`‸´¬)</div>
+<div class="box" onclick="openPage('miss')">Open when you miss meᵔ ᵕ ᵔ</div>
+<div class="box" onclick="openPage('sleep')">Open when you can't sleep>﹏<</div>
+<div class="box" onclick="openPage('bakchodi')">Open when you feel to( •̯́ ₃ •̯̀)</div>
+</div>
+
+</div>
+</div>
+
+<!-- UPSET -->
+<div id="upset" class="page lovebg">
+<div class="container">
+<h1>If you're upset🤍</h1>
+
+<video width="300">
+  <source src="peny.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+<p> 
+life won't always work in your favour.🙃 <br>
+U are allowed to feel exhausted as weeell as low.😌
+
+</p>
+<p> 
+This page isn’t here to fix you.<br>
+It’s not here to give advice u didn’t ask for.😞
+It’s just here to exist… the way I hope I exist in your life. Quietly. Without pressure.😇
+</p>
+<p>
+U’re someone who thinks logically.<br> U analyze, u try to understand everything before reacting. i lop tht abt u. actually i lop everything abt u except...<br>
+ But Sometimes your mind can work overtime and this exact moment is temporary. for the time being sutdeu, ki roideu. COMPLETLY FINE🙂‍↕️<br>
+But even if you feel alone sometimes, <br> <b>I want this to be proof that you’re not invisible.🤧 </b>
+<p>
+<b>LIFE FUCKS US ALL.👅👅</b><br>
+
+smile idiott.😁😁
+</p>
+
+<button onclick="goHome()">← previous</button>
+</div>
+</div>
+
+<!-- MISS -->
+<div id="miss" class="page lovebg">
+<div class="container">
+<h1>( •̯́ ₃ •̯̀) </h1>
+
+<video  width="300">
+  <source src="lop.mp4" type="video/mp4">
+</video>
+
+<img src="YOURPIC2.jpg">
+
+<p>
+<b>
+I’m just somewhere living my day…
+and missing you too.</b>
+</p>
+
+<p>
+HILOOOO ik hamro relation isn't compatible.<br> u deserve someone who matches your energy fully, freakyness😈🫦 blah blah.someone with whom u can share every life problem.🗣️<br>
+anyway whatever we have feels pure to me. <br>When I talk to you, I feel mature, happy.tmy last funny chau.🙂‍↕️<br>anyone could get easily vibe wth u.<br> tmy snga vaye vne hasera marchu well it's better than royera marnu.<br> ur wife's luckyy.🐍
+
+</p>
+
+<button onclick="goHome()">← previous</button>
+</div>
+</div>
+
+<!-- SLEEP -->
+<div id="sleep" class="page nightbg">
+<div class="container">
+<h1>aamooiii, au lori suunauchu😉</h1>
+<p>
+anxiety attacks?overthinking?
+</p>
+<style>
+.side-layout {
+  display: flex;            /* makes img and text sit side by side */
+  align-items: center;      /* vertically center the text with the image */
+  gap: 20px;                /* optional spacing between image and text */
+}
+
+.side-layout img {
+  max-width: 200px;         /* adjust size as needed */
+  height: auto;
+  border-radius: 8px;       /* optional, just makes it look nicer */
+}
+
+.side-text {
+  font-size: 18px;
+  line-height: 1.4;
+}
+</style>
+
+<div class="side-layout"> 
+  <img src="slep.jpg" alt="Your photo">
+<p class="side-text">
+(if anxiety attacks: <br>
+Breathe. U are safe.<br>
+This too shall pass fast.<br>
+U are okay. And when morning comes, you’ll be stronger than you think.😼😼😼<br>
+<B>U’re not your anxiety.</B><br>
+Anxiety doesn’t last forever.<br>
+You don’t have to fix anything tonight.)<br>
+</p>  <p class="side-text">
+    mero lagi u’re like an <b>unexpected disguise.😽</b> I’m genuinely glad ki tmro very first text respond garey—“you’re hot.<br>even though I thought u were just another asshole.👽<br>
+MERO LIFE LAI sundar banaideko ma chuppa💋<BR>
+MERO PERSPECTIVES UPGRADE grdeko ma dherai maya🫶🫶🫶<br>
+i feel lucky to have u.🦾🫀
+  </p>
+
+</div>
+
+
+</div>
+<button onclick="goHome()">← previous</button>
+</div>
+</div>
+
+<!-- BAKCHODI -->
+<div id="bakchodi" class="page firebg">
+<div class="container">
+<h1>bakchodii👅 </h1>
+
+
+<p>
+Look at <b>YOU.<b><br> 
+Being so mature<br>
+but still waiting for my nonsense messages.👀👀
+<br>
+
+Admit it.<br>
+Your mood improves 27% when I text you.<br>
+Scientific fact. I did research.💁‍♀️<br>
+</p>
+<img src="he.jpg">
+
+<p>
+dyakshe,siganey, motey whatver im so thankful for meeting youh.<br>
+you'd always be in my heart. <br> udi udi chuppaa for all of this.💋💋<br>
+I’m going to ruin you… deliciously.👅👅👅 mor!
+
+</p>
+
+<button onclick="goHome()">← previous</button>
+</div>
+</div>
+
+<script>
+function openPage(page){
+document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+document.getElementById(page).classList.add('active');
+window.scrollTo(0,0);
+}
+
+function goHome(){
+document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+document.getElementById('home').classList.add('active');
+window.scrollTo(0,0);
+}
+</script>
+
+</body>
+</html>
